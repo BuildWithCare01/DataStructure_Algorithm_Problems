@@ -12,7 +12,7 @@ int search(vector<int>& nums, int target) {
             {
                 return m ;
             }
-            else if(target>nums[s])
+            else if(target>nums[m])
             {
                 s = m + 1;
             }
