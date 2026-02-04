@@ -17,4 +17,8 @@ int main()
 {
     vector<char> s{'a','f','e','u'};
     reverseString(s);
+    for(auto v : s)
+    {
+        cout << v << " " ;
+    }
 }
